@@ -19,12 +19,24 @@ The following **bonus** features are implemented:
 - [x] User can pull to refresh. (1pt)
 - [x] User can load past tweets infinitely. (2pts)
 
-## Video Walkthrough
+### App Walkthrough GIF
 
-Here's a walkthrough of implemented user stories:
+#### Part 1: 
+(*with pull to refresh bonus*)
 
-<img src='https://media.giphy.com/media/FpKITxgJnaVmFZmI90/giphy.gif' width='400' />
+<img src= "https://media.giphy.com/media/7xMqYlZ0yPxFjU4NTn/giphy.gif" width='400'><br>
 
-Lauchscreen
+#### Part 2: 
+(*with infinite scroll bonus*)
 
-<img src='https://user-images.githubusercontent.com/54916166/109377475-a7793500-7899-11eb-978f-8d2595feb33a.png' width= '600' />
+<img src= "https://media.giphy.com/media/vKmq5qFXMc8JWa30Kh/giphy.gif" width='400'><br>
+
+### Notes
+
+I successfully completed all tasks for Part 1, as well as all bonus tasks. 
+<br>
+The only challenge I had was figuring out how to change the presentation style of the segue in storyboard.
+<br><br>
+<br>
+
+*(All gif timelapses have been sped up.)*
