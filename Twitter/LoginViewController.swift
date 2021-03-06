@@ -16,13 +16,23 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func login(_ sender: Any) {
+        // print("hello world");
+        let myURL = "https://api.twitter.com/oauth/request_token"
+        TwitterAPICaller.client?.login(url: myURL, success: {
+                                        UserDefaults.standard.set(true, forKey: "userLoggedIn") // allows user to STAY logged in.
+                                        self.performSegue(withIdentifier: "loginToHome", sender: self) }, failure: { (Error) in
+                                            print("Could not log in!")
+                                        })
+    }
+    
     override func viewDidAppear(_ animated: Bool) {
         if UserDefaults.standard.bool(forKey: "userLoggedIn") == true {
             self.performSegue(withIdentifier: "loginToHome", sender: self)
         }
     }
     
-    @IBAction func onLoginButton(_ sender: Any) { // this basically means that anytime someone presses on our login button it'll do the actions within our brackets <3
+    /*@IBAction func onLoginButton(_ sender: Any) { // this basically means that anytime someone presses on our login button it'll do the actions within our brackets <3
         // print("hello world");
         let myURL = "https://api.twitter.com/oauth/request_token"
         TwitterAPICaller.client?.login(url: myURL, success: {
@@ -30,7 +40,7 @@ class LoginViewController: UIViewController {
             self.performSegue(withIdentifier: "loginToHome", sender: self) }, failure: { (Error) in
             print("Could not log in!")
         })
-    }
+    }*/
     
     /*
     // MARK: - Navigation
