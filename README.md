@@ -1,22 +1,16 @@
 # "Tweeter" / Twitter - Part II
 
-This is a basic Twitter app to view, compose, favorite, and retweet tweets.
+*Tweeter* is a basic Twitter app to view, compose, favorite, and retweet tweets.
 
 Time spent: **8** hours spent in total
 
 ## User Stories
 
-The following **required** functionality is completed:
+Implemented functionality:
 
-- [x] User can compose a tweet. (4pts)
-- [x] User can favorite a tweet. (4pts)
-- [x] User can retweet a tweet. (2pts)
-
-The following **bonus** features are implemented:
-
-- [ ] When composing a tweet, user sees a countdown for the number of characters remaining for the tweet (out of 280) (2pts)
-- [ ] User can view their profile in a profile tab. (3pts)
-- [ ] User sees embedded images in tweet if available. (3pts)
+- [x] User can compose a tweet. 
+- [x] User can favorite a tweet. 
+- [x] User can retweet a tweet. 
 
 ## Video Walkthrough
 
@@ -24,26 +18,23 @@ Here's a walkthrough of implemented user stories:
 
 <img src= "https://media.giphy.com/media/a7S2q5HWh0PppXY0Kr/giphy.gif" width='400'><br>
 
-# Project 3 - *Tweeter*
+# Part I
 
-**Tweeter* is a basic twitter app to read your tweets.
+*Tweeter* is a basic twitter app to read your tweets.
 
 Time spent: **4** hours spent in total
 
 ## User Stories
 
-The following **required** functionality is completed:
+Implemented functionality:
 
-- [x] User sees app icon in home screen and styled launch screen. (1pt)
-- [x] User can log in. (1pt)
-- [x] User can log out. (1pt)
-- [x] User stays logged in across restarts. (1pt)
-- [x] User can view tweets with the user profile picture, username, and tweet text. (6pts)
-
-The following **bonus** features are implemented:
-
-- [x] User can pull to refresh. (1pt)
-- [x] User can load past tweets infinitely. (2pts)
+- [x] User sees app icon in home screen and styled launch screen.
+- [x] User can log in. 
+- [x] User can log out. 
+- [x] User stays logged in across restarts. 
+- [x] User can view tweets with the user profile picture, username, and tweet text.
+- [x] User can pull to refresh. 
+- [x] User can load past tweets infinitely. 
 
 ### App Walkthrough GIF
 
@@ -57,9 +48,9 @@ The following **bonus** features are implemented:
 
 <img src= "https://media.giphy.com/media/vKmq5qFXMc8JWa30Kh/giphy.gif" width='400'><br>
 
-### Notes
+### Project Notes
 
-I successfully completed all tasks for Part 1, as well as all bonus tasks. 
+I successfully completed all required tasks as well as all bonus tasks. 
 <br>
 The only challenge I had was figuring out how to change the presentation style of the segue in storyboard.
 <br><br>
