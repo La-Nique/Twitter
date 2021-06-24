@@ -1,8 +1,8 @@
 # "Tweeter" / Twitter - Part II
 
-*Tweeter* is a basic Twitter app to view, compose, favorite, and retweet tweets.
+###### *Tweeter* is a basic Twitter app to view, compose, favorite, and retweet tweets.
 
-Time spent: **8** hours spent in total
+###### Time spent: **8** hours spent in total
 
 ## User Stories
 
