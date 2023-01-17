@@ -2,8 +2,6 @@
 
 ###### *Tweeter* is a basic Twitter app to view, compose, favorite, and retweet tweets.
 
-###### Time spent: **12** hours spent in total
-
 ## User Stories
 
 Implemented functionality:
@@ -34,11 +32,5 @@ Here's a walkthrough of implemented user stories:
 (*with infinite scroll implementation*)
 
 <img src= "https://media.giphy.com/media/vKmq5qFXMc8JWa30Kh/giphy.gif" width='400'><br>
-
-### Project Notes
-<br>
-The only challenge I had was figuring out how to change the presentation style of the segue in storyboard.
-<br>
-<br>
 
 *(All gif timelapses have been sped up.)*
